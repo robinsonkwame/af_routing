@@ -12,5 +12,7 @@ Set of custom scripts for standing up and using OSRM related libraries for compu
 Note: the frontend UI has very odd click behavior, see: https://github.com/Project-OSRM/osrm-frontend/issues/343
 
 ## (optional) Configure Chrome
-# `chrome://flags/#unsafely-treat-insecure-origin-as-secure`
-# add http://<localhost>:9966/
+
+go to `chrome://flags/#unsafely-treat-insecure-origin-as-secure`
+
+and add `http://<localhost>:9966/`
