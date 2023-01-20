@@ -14,3 +14,5 @@ docker run -t -v "${PWD}:/data" ghcr.io/project-osrm/osrm-backend osrm-partition
 
 echo "... step 3: customize the data for the backend [2 minutes]"
 docker run -t -v "${PWD}:/data" ghcr.io/project-osrm/osrm-backend osrm-customize /data/us-midwest-latest.osm.pbf
+
+echo "... script finished! Set \$OSRM_BACKEND host and then run run.sh"

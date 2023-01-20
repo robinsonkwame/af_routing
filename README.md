@@ -7,7 +7,7 @@ Set of custom scripts for standing up and using OSRM related libraries for compu
 `./setup.sh`
 
 ## 2 run
-export OSRM_BACKEND=192.168.0.101 # host the backend is on, typically localhost
+`export OSRM_BACKEND=192.168.0.101` # host the backend is on, typically localhost
 `./run.sh`
 
 Note: the frontend UI has very odd click behavior, see: https://github.com/Project-OSRM/osrm-frontend/issues/343
