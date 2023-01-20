@@ -1,6 +1,12 @@
 # af_routing
 Set of custom scripts for standing up and using OSRM related libraries for computing in community economics
 
+# TL;DR
+
+if you want to run the frontend and backend on the same machine, you can run
+
+`./setup.sh && export OSRM_BACKEND=localhost && ./run.sh`
+
 # QuickStart
 
 ## 1 Setup
